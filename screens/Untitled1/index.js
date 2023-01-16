@@ -1,3 +1,4 @@
+import { View } from "react-native";
 import React from "react";
 import { StyleSheet, SafeAreaView } from "react-native";
 
@@ -6,7 +7,7 @@ const Untitled1 = ({
 }) => {
   return <SafeAreaView style={styles.safeArea}>
         
-    </SafeAreaView>;
+    <View style={styles.rtZnxOEe}></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -39,6 +40,16 @@ const styles = StyleSheet.create({
   asCynKcv: {
     position: "relative",
     opacity: 1
+  },
+  rtZnxOEe: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    left: 56,
+    top: 196
   }
 });
 export default Untitled1;

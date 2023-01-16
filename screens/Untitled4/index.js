@@ -1,15 +1,15 @@
-import { Text } from "react-native";
+import { ImageBackground } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
-const Untitled2 = () => {
+const Untitled4 = () => {
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Text style={styles.ZlANhqLc}>Lorem ipsum…</Text></ScrollView>
+    }}><ImageBackground style={styles.lxdUNWZA} source={require("./dragon 6.jpg")} resizeMode="cover"></ImageBackground></ScrollView>
     </SafeAreaView>;
 };
 
@@ -17,12 +17,12 @@ const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
   },
-  ZlANhqLc: {
-    width: 100,
-    height: 50,
-    lineHeight: 14,
-    fontSize: 14,
-    borderRadius: 0
+  lxdUNWZA: {
+    width: 107,
+    height: 62,
+    position: "absolute",
+    left: 190,
+    top: 70
   }
 });
-export default Untitled2;
+export default Untitled4;
