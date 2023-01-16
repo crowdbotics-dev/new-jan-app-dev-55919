@@ -44,12 +44,13 @@ const styles = StyleSheet.create({
   rtZnxOEe: {
     height: 60,
     width: 140,
-    backgroundColor: "#E4E4E4",
+    backgroundColor: "#bd3b3b",
     borderRadius: 0,
     color: "#777777",
     position: "absolute",
     left: 56,
-    top: 196
+    top: 196,
+    borderColor: "#e31111"
   }
 });
 export default Untitled1;
